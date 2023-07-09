@@ -2,8 +2,6 @@
 
 _Despliegue del backend en modo VMC (Modelo vista controlador)_
 
-This is a solution to the Qr Code project of the Make It Real course.
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -18,7 +16,7 @@ This is a solution to the Qr Code project of the Make It Real course.
 
 ## Overview
 
-Construir componente de codigo QR
+Construir en Modelo vista controlador las peticiones referentes al backend
 
 ### The challenge
 
