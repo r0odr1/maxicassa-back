@@ -2,9 +2,9 @@ const express = require('express')
 const cors = require('cors')
 const dotenv = require('dotenv').config()
 
-const { 
-  handleCreateData, 
-  handleReadData, 
+const {
+  handleCreateData,
+  handleReadData,
   handleReadDataById,
   handleUpdateData,
   handleDeleteData
@@ -14,11 +14,10 @@ const app = express()
 const PORT = process.env.PORT || 8080
 
 app.use(cors())
-app.use(express.json()) 
+app.use(express.json())
 
 app.get('/healthcheck', (_, res) => {
-  
-  res.status(200).send('OK')  
+  res.status(200).send('OK')
 })
 
 app.post('/products', handleCreateData)
